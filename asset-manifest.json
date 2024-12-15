@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0bbd8267.css",
+    "main.js": "/Portfolio/static/js/main.6a0944d4.js",
+    "static/media/Ahmed.png": "/Portfolio/static/media/Ahmed.145f04600eea8544267e.png",
+    "static/media/Currency.png": "/Portfolio/static/media/Currency.c0b0c79ddb09306fe6f4.png",
+    "static/media/website.png": "/Portfolio/static/media/website.3ecbbec4dfe306f1db8e.png",
+    "static/media/Online.png": "/Portfolio/static/media/Online.7d2b645417d76125f480.png",
+    "static/media/Projects.png": "/Portfolio/static/media/Projects.65d2e3828023432fc40e.png",
+    "static/media/Product.png": "/Portfolio/static/media/Product.a724c40c9892c2543a14.png",
+    "static/media/Dashboard.png": "/Portfolio/static/media/Dashboard.9b0507f89670a9019ab7.png",
+    "static/media/Memory.png": "/Portfolio/static/media/Memory.52ec7e4eb33d3457908b.png",
+    "static/media/Data.png": "/Portfolio/static/media/Data.e8fd0a69586162c78a25.png",
+    "static/media/World.png": "/Portfolio/static/media/World.023519673b488e0a768b.png",
+    "static/media/Shopping.png": "/Portfolio/static/media/Shopping.772148e1ae8a34ceec09.png",
+    "static/media/Team.png": "/Portfolio/static/media/Team.71b2046834877d1b6383.png",
+    "static/media/Medical.png": "/Portfolio/static/media/Medical.ba62c2afa00c317abe30.png",
+    "static/media/Ahmed-Yasser-CV.pdf": "/Portfolio/static/media/Ahmed-Yasser-CV.6838842b258db6f69fcc.pdf",
+    "static/media/Logo.png": "/Portfolio/static/media/Logo.9f640e7cade0fa282b11.png",
+    "static/media/slick.svg": "/Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Portfolio/index.html",
+    "main.0bbd8267.css.map": "/Portfolio/static/css/main.0bbd8267.css.map",
+    "main.6a0944d4.js.map": "/Portfolio/static/js/main.6a0944d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bbd8267.css",
+    "static/js/main.6a0944d4.js"
+  ]
+}
