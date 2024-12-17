@@ -1,0 +1,177 @@
+
+.services {
+background-color: black;
+padding:0 0 80px ;
+overflow: hidden;
+}
+.services h3,
+.services h3 span {
+    font-weight: 800;
+    font-size: 30px;
+}
+.services h3 span {
+   color: var(--orange);
+}
+.services h3 {
+   width: fit-content;
+   margin: 20px auto 0;
+   position: relative;
+   letter-spacing: 1px;
+}
+.services h3::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   width: 100%;
+   height: 3px;
+   background-color: white;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.services h3::after {
+   content: '';
+   position: absolute;
+   left: 50%;
+   bottom: -16px;
+   width: 15px;
+   height: 15px;
+   background-color: transparent;
+   outline: 3px solid var(--orange);
+   transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
+   -moz-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   -o-transform: translateX(-50%);
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+.services h2 span {
+   color: var(--orange);
+}
+.services .slick-slider {
+   margin-top: 60px;
+}
+.services .slick-list {
+   overflow: visible;
+}
+.slick-dots li.slick-active button:before {
+   color: red;
+}
+.slick-dots li button:before {
+   color: var(--orange);
+   top: 30px;
+   opacity: 1;
+   font-size: 15px;
+}
+.services .big-box {
+   outline: none;
+}
+.services .big-box .box {
+   position: relative;
+   height: 480px;
+}
+.services .box .image img {
+   width: 150px;
+}
+.services .big-box .box .s-btn {
+ position: absolute;
+ bottom: 40px;
+}
+.services .big-box .box {
+    border: 2px solid #7f7f7f;
+    padding: 20px 20px 0;
+    box-shadow: 0px 0px 8px 1px red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.services .big-box .box:hover {
+   border-color: var(--orange);
+}
+@media (min-width:768px) {
+   .services .big-box .box:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+}
+}
+.services .box .info h2 {
+   color: var(--orange);
+   letter-spacing: 1px;
+   font-size: 27px;
+   border-bottom: 3px solid white;
+   padding: 10px;
+   border-radius: 10px;
+   width: fit-content;
+   box-shadow: 0px 3px 5px 2px;
+}
+.services .box .info p {
+   font-size: 14px;
+   font-weight: 600;
+   color: #b2acac;
+   line-height: 1.3;
+}
+.services .box .s-btn {
+  margin-top: 10px;
+}
+.services .box .s-btn a {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.services .box .s-btn:hover a {
+   color: var(--orange);
+}
+.services .visit {
+   background: linear-gradient(180deg, #1976D2 26.71%, #4d34d8 99.36%);
+   box-shadow: 0 20px 24px 3px rgb(74 151 212 / 81%);
+   transition: 0.5s;
+   -webkit-transition: 0.5s;
+   -moz-transition: 0.5s;
+   -ms-transition: 0.5s;
+   -o-transition: 0.5s;
+}
+.services .visit:hover {
+   background: black;
+}
+@media (max-width:767px){
+   .services .big-box .box {
+      height: 370px;
+   }
+   .services .box .image img {
+      width: 100px;
+   }
+   .services .box .info h2 {
+      font-size: 20px;
+   }
+   .services .box .info p {
+      font-size: 12px;
+   }
+   .services .box .s-btn a {
+      font-size: 14px;
+   }
+   .slick-dots li button:before {
+      font-size: 10px;
+   }
+}

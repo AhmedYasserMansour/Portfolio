@@ -1,0 +1,102 @@
+.home {
+    overflow-y: hidden;
+}
+.home .h-left {
+    transform: translateX(-35em);
+    -webkit-transform: translateX(-35em);
+    -moz-transform: translateX(-35em);
+    -ms-transform: translateX(-35em);
+    -o-transform: translateX(-35em);
+    transition: 4s;
+    -webkit-transition: 4s;
+    -moz-transition: 4s;
+    -ms-transition: 4s;
+    -o-transition: 4s;
+}
+@media (max-width:1023px) {
+    .home .h-left {
+        transform: rotateX(-23em);
+        -webkit-transform: rotateX(-23em);
+        -moz-transform: rotateX(-23em);
+        -ms-transform: rotateX(-23em);
+        -o-transform: rotateX(-23em);
+}
+}
+@media (min-width:768px) {
+    .home {
+    height: calc(100vh - 12vh);
+    }
+    .home .h-left {
+        margin-top: 3em;
+    }
+}
+.home .h-name span {
+    display: block;
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.home .h-name span:first-child {
+    margin-top: 30px;
+    color: #747272;
+}
+.home .h-name span:nth-child(2){
+    color: var(--orange);
+    width: 280px;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 10px;
+    animation: control 4s 4s steps(12) both, blink 0.5s 8s both;
+    -webkit-animation: control 4s 4s steps(12) both, blink 0.5s 8s both;
+}
+@keyframes control {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 280px;
+    }
+}
+@keyframes blink {
+    0%{
+        border-right-color: var(--orange);
+    }
+    100%{
+        border-right-color: transparent;
+    }
+}
+.home .h-name p {
+    font-weight: 700;
+    line-height: 1.5;
+}
+.home .cv {
+    margin-bottom: 30px;
+}
+.home .h-left .h-icons img {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+}
+.home .h-right .ahmed {
+    transition: 4s;
+    transform: translateY(300px);
+    -webkit-transform: translateY(300px);
+    -moz-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    -o-transform: translateY(300px);
+    -webkit-transition: 4s;
+    -moz-transition: 4s;
+    -ms-transition: 4s;
+    -o-transition: 4s;
+}
+.home .h-right .ahmed {
+    height: 300px;
+}
+@media (min-width:424px) {
+    .home .h-right .ahmed {
+    height: 400px;
+    }
+}

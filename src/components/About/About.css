@@ -1,0 +1,73 @@
+.about {
+    background-color: var(--black);
+    padding: 40px 0;
+}
+@media (min-width:1024px) {
+    .about .row {
+        gap: 8em;
+    }
+}
+@media (min-width:767px) {
+    .big-box {
+        width: calc(100% / 2);
+    }
+}
+.about .a-left img[alt="Website"] {
+    animation: 3s animate linear alternate infinite;
+    -webkit-animation: 3s animate linear alternate infinite;
+}
+@keyframes animate {
+    0% {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+}
+100% {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+}
+.about .a-right {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: 4s;
+    -webkit-transition: 4s;
+    -moz-transition: 4s;
+    -ms-transition: 4s;
+    -o-transition: 4s;
+}
+.about .a-right h2 {
+    margin: 0;
+}
+.about .a-right h2,
+.about .a-right span {
+    font-weight: 800;
+    font-size: 30px;
+}
+.about .a-right span {
+    color: var(--orange);
+}
+.about .a-right p {
+    font-weight: 600;
+    text-align: left;
+}
+@media (max-width:424px) {
+    .about .a-right h2,
+    .about .a-right span {
+    font-size: 16px;
+}
+}
+@media (max-width:1023px) {
+    .about .a-right h2,
+    .about .a-right span {
+    font-size: 25px;
+}
+}

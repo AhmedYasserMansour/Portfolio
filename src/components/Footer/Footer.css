@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
+}
+.footer h2,
+.footer h4 {
+    margin: 0;
+}
+.footer h2,
+.footer h4,
+.footer h3 {
+    color: var(--orange);
+}
+.footer h3 {
+    margin: 10px 0;
+}

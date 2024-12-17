@@ -1,0 +1,18 @@
+.toggle {
+    position: relative;
+    cursor: pointer;
+    gap: 20px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.toggle .circle {
+    position: absolute;
+    background-color: var(--orange);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
