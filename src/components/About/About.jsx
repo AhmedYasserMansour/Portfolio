@@ -39,9 +39,10 @@ const About = () => {
                 <h2>Front-End 
                     <span> Developer</span>
                 </h2>
-                <p  style={{color: darkMode ? '#b2acac' : 'black'}}>Enthusiastic Fresh Front-End Developer with a passion for creating unique user experiences.
-                 Quick learner capable of adapting to new technologies and working effectively within multidisciplinary teams.
-                 Seeking to join a creative team to enhance my skills and contribute to innovative web applications.</p>
+                <p  style={{color: darkMode ? '#b2acac' : 'black'}}>Enthusiastic and driven Front-End Developer with a passion for crafting exceptional user experiences.
+                     With a keen eye for design and a strong understanding of front-end technologies, I am always eager to learn and adapt to emerging trends.
+                      I thrive in collaborative, multidisciplinary environments and am committed to continuously improving my skills.
+                     I am excited to contribute to innovative web applications and work with a creative team to bring unique ideas to life.</p>
             </div>
             </div>
           </div>
