@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.59c631ea.css",
-    "main.js": "/Portfolio/static/js/main.d02410e9.js",
+    "main.css": "/Portfolio/static/css/main.41c93dab.css",
+    "main.js": "/Portfolio/static/js/main.3663c161.js",
     "static/media/Ahmed.png": "/Portfolio/static/media/Ahmed.145f04600eea8544267e.png",
     "static/media/Currency.png": "/Portfolio/static/media/Currency.c0b0c79ddb09306fe6f4.png",
     "static/media/website.png": "/Portfolio/static/media/website.3ecbbec4dfe306f1db8e.png",
@@ -14,18 +14,18 @@
     "static/media/Shopping.png": "/Portfolio/static/media/Shopping.772148e1ae8a34ceec09.png",
     "static/media/Team.png": "/Portfolio/static/media/Team.71b2046834877d1b6383.png",
     "static/media/Medical.png": "/Portfolio/static/media/Medical.ba62c2afa00c317abe30.png",
-    "static/media/Ahmed-Yasser-CV.pdf": "/Portfolio/static/media/Ahmed-Yasser-CV.bad6793328c8502bc88d.pdf",
+    "static/media/Ahmed-Yasser-CV.pdf": "/Portfolio/static/media/Ahmed-Yasser-CV.663b7e1aeae40e890310.pdf",
     "static/media/Logo.png": "/Portfolio/static/media/Logo.9f640e7cade0fa282b11.png",
     "static/media/slick.svg": "/Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio/index.html",
-    "main.59c631ea.css.map": "/Portfolio/static/css/main.59c631ea.css.map",
-    "main.d02410e9.js.map": "/Portfolio/static/js/main.d02410e9.js.map"
+    "main.41c93dab.css.map": "/Portfolio/static/css/main.41c93dab.css.map",
+    "main.3663c161.js.map": "/Portfolio/static/js/main.3663c161.js.map"
   },
   "entrypoints": [
-    "static/css/main.59c631ea.css",
-    "static/js/main.d02410e9.js"
+    "static/css/main.41c93dab.css",
+    "static/js/main.3663c161.js"
   ]
 }
