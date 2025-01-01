@@ -92,6 +92,12 @@
 .skills .s-images img:nth-child(9) {
     transition-delay: 1.2s;
 }
+.skills .s-images img:nth-child(10) {
+    transition-delay: 2s;
+}
+.skills .s-images img:nth-child(11) {
+    transition-delay: 1.8s;
+}
 .skills .data {
     transform: translateY(25em);
     -webkit-transform: translateY(25em);

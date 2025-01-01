@@ -8,6 +8,8 @@ import Git from '../../assets/Git.png';
 import Github from '../../assets/Github-black.png';
 import Command from '../../assets/command.png';
 import Bootstrap from '../../assets/bootstrap.png';
+import Redux from '../../assets/Redux.png';
+import Jest from '../../assets/Jest.png';
 import ReactLibrary from '../../assets/React.png';
 import Data from '../../assets/Data.png';
 import { themeContext } from './../../Context';
@@ -54,6 +56,8 @@ const Skills = _ => {
                                 <img ref={e => refImgs.current[6] = e}  src={Command} alt="Command" />
                                 <img ref={e => refImgs.current[7] = e}  src={Bootstrap} alt="Bootstrap" />
                                 <img ref={e => refImgs.current[8] = e}  src={ReactLibrary} alt="ReactLibrary" />
+                                <img ref={e => refImgs.current[9] = e}  src={Redux} alt="Redux" />
+                                <img ref={e => refImgs.current[10] = e}  src={Jest} alt="Jest" />
                             </div>
                     </div>
                     <div className="big-box">
