@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import './Services.css';
+import Ecommerce from '../../assets/Ecommerce.png';
 import Doctor from '../../assets/Medical.png';
 import Shopping from '../../assets/Shopping.png';
 import Cruds from '../../assets/Product.png';
@@ -44,6 +45,20 @@ const Services = _ => {
         <div className="services" id='services' style={{backgroundColor : darkMode ? 'black' : '#cfdbe5'}}>
           <h3 style={{color : darkMode ? 'white' : 'black'}}>Our <span>Services</span></h3>
             <Slider {...settings}>
+           <div className="big-box">
+           <div className="box">
+                <div className="image">
+                <img src={Ecommerce} alt="Ecommerce" />
+                </div>
+                <div className="info">
+                <h2>E-Commerce</h2>
+                <p style={{color : darkMode ? '#b2acac' : 'black'}}>An e-commerce project for selling fashion is an online platform offering clothing for all categories.
+                    It features a user-friendly design with a shopping cart,
+                     order tracking, and a favorites list for easy shopping.</p>
+                </div>
+                <button className="s-btn button"><a target='_blank' href="https://e-commerce-59eb9.web.app/">View Project</a></button> 
+            </div>
+           </div>
            <div className="big-box">
            <div className="box">
                 <div className="image">
